@@ -7,4 +7,11 @@
   </parent>
   <artifactId>alpaca-framework-web</artifactId>
   <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.alpaca</groupId>
+  		<artifactId>alpaca-framework-core</artifactId>
+  		<version>${project.version}</version>
+  	</dependency>
+  </dependencies>
 </project>
